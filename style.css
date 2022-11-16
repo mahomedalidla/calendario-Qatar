@@ -1,0 +1,131 @@
+html, body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.imagenIcon{
+    max-height: 200px;
+}
+
+.parent {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+}
+
+
+.child {
+    width: 300px;
+    height: 300px;
+    background: rgba(255, 255, 255, 0.839);
+    border-radius: 20px;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    color: #e0e0e0;
+}
+
+h4{
+    font-size: large;
+}
+
+a{
+    text-decoration: none;
+    color: #151515;
+}
+
+
+img{
+    width: 170px;
+    object-fit: contain;
+}
+
+.cuerpo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+}
+
+  body {
+    padding: 0px;
+    font-family: system-ui, serif;
+    background-color: #e0e0e0;
+    background-image: url("https://files.decree.com.mx/mundial/bg4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  footer {
+    padding: 30px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+  }
+
+  .img-footer{
+    margin-bottom: -70px;
+  }
+
+  .foteer-div{
+    padding: 30px;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+  }
+
+  i{
+    color: rgb(255, 255, 255);
+}
+
+nav{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #00050f;
+    padding: 0px 30px 0px 30px;
+}
+
+.nav-links{
+    display: flex;
+    gap: 30px;
+}
+
+@media only screen and (max-width: 680px) {
+    .cuerpo{
+        height: auto;
+    }
+    h1{
+        margin: 50px 0 0 0;
+        padding: 0 20px 0 20px;
+    }
+
+    nav{
+        padding: 0;
+    }
+
+    .nav-links{
+        padding-right: 10px;
+    }
+
+    a{
+        font-size: 14px;
+    }
+
+}
